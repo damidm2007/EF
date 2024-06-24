@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/logo-ventana.png" type="image/x-icon">
+    <title>EF Easy Food ;) </title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg p-3">
+            <div class="container-fluid">
+                <img src="./img/logo2.png" width="38%" height="30%" alt="ham"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav align-items-end">
+                        <a id="nav1" class="nav-link active" aria-current="page" href="#"><strong>
+                                Principal</strong></a>
+                        <a id="nav1" class="nav-link" href="#">Locales</a>
+                        <a id="nav1" class="nav-link" href="#">Tienda</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="all">
+
+
+
+            <div class="custom-container">
+                <img id="promo" src="/img/salsa.jfif" class="img-fluid" height="90%" width="92%">
+            </div>
+            <div class="carrusel">
+                <div class="container mt-5">
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/img/Hamburguesa.jfif" class="d-block w-100" alt="Imagen 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/Papas.jfif" class="d-block w-100" alt="Imagen 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/Hot-dog.jfif" class="d-block w-100" alt="Imagen 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/Pizza.jfif" class="d-block w-100" alt="Imagen 4">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="custom-container2">
+                <img id="promo" src="/img/lugar.jfif" class="img-fluid" height="90%" width="92%">
+            </div>
+        </div>
+    </header>
+    <br><br><br>
+
+
+
+
+
+    <main>
+        <div class="titlee">
+            <i id="icono" class="fas fa-hamburger"></i>
+            <h2 id="menues">MENÚ</h2>
+            <i id="icono" class="fas fa-hamburger"></i>
+        </div>
+        <section id="menu">
+            <div>
+                <button class="cartas" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                    <img class="imagen1" src="/img/familiar.jfif" alt="imagenes"></button>
+                <br>
+                <p class="comidas">FAMILIAR</p>
+                <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="staticBackdropLabel">MENÚ FAMILIAR</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>PEDIDO</th>
+                                            <th>PRECIO</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Salchipapas XL</td>
+                                            <td>$30.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hamburguesas McBlack x4</td>
+                                            <td>$40.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pizza grande 4 ingredientes</td>
+                                            <td>$120.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hot-dogs de la casa x4</td>
+                                            <td>$55.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pizza mediana 2 ingredientes</td>
+                                            <td>$60.000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <h3 id="modalfotter">¡Disfruta!</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="cartas" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><img class="imagen1"
+                        src="./img/personal.jfif" alt="imagenes"></button>
+                <br>
+                <p class="comidas">PERSONAL</p>
+                <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="staticBackdropLabel">MENÚ PERSONAL</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>PEDIDO</th>
+                                            <th>PRECIO</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Salchipapas M</td>
+                                            <td>$17.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hamburguesa McBlack</td>
+                                            <td>$10.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Porción de Pizza</td>
+                                            <td>$12.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hot-dog de la casa</td>
+                                            <td>$20.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hamburguesa XL con tocino</td>
+                                            <td>$30.000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="modal-footer">
+                                <h3 id="modalfotter">¡Disfruta!</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="cartas" data-bs-toggle="modal" data-bs-target="#staticBackdrop3"><img class="imagen1"
+                        src="./img/infantil.jfif" alt="imagenes"></button>
+                <br>
+                <p class="comidas">INFANTIL</p>
+                <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title fs-5" id="staticBackdropLabel">MENÚ INFANTIL</h2>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>PEDIDO</th>
+                                            <th>PRECIO</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Salchipapas pequeña + jugo de caja</td>
+                                            <td>$10.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hamburguesa mini + jugo de caja</td>
+                                            <td>$10.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Porción de Pizza + jugo de caja</td>
+                                            <td>$10.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hot-dog mini + jugo de caja</td>
+                                            <td>$12.000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nuggets de pollo y ensalada + jugo de caja</td>
+                                            <td>$15.000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="modal-footer">
+                                <h3 id="modalfotter">¡Disfruta!</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <section id="regis">
+                <div class="formulario">
+                    <h3 id="haz">HAZ TU PEDIDO</h3><br>
+
+                    <div class="boton">
+                        <button id="b1" type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            <strong> Elige tu pedido </strong>
+                        </button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+
+                                    <div class="modal-header">
+                                        <i class="fas fa-hamburger"></i>
+                                        <h1 id="modaltitle"> ELIGE TU PEDIDO </h1> <i class="fas fa-hamburger"></i>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label for="miSelect">Selecciona el menú: </label><br>
+                                        <select>
+                                            <option value="opcion1" selected> Selecciona</option>
+                                            <option value="opcion2">Menú Personal</option>
+                                            <option value="opcion3">Menú Familiar</option>
+                                            <option value="opcion4">Menú Infantil</option>
+
+                                        </select><br><br>
+
+                                        <label for="miSelect">Selecciona la opción del menú: </label><br>
+                                        <select>
+                                            <option value="opcion1" selected> Selecciona</option>
+                                            <option value="opcion2">Opción 1</option>
+                                            <option value="opcion3">Opción 2</option>
+                                            <option value="opcion4">Opción 3</option>
+                                            <option value="opcion5">Opción 4</option>
+                                            <option value="opcion6">Opción 5</option>
+                                        </select><br><br>
+
+                                        <label for="miSelect">Digita la cantidad: </label><br>
+                                        <input id="cantidad" type="text" placeholder="1-20"><br><br>
+
+                                        <label for="miSelect">Selecciona tu bebida: </label><br>
+                                        <select>
+                                            <option value="opcion1" selected> Selecciona</option>
+                                            <option value="opcion2">Coca-Cola 1.25L</option>
+                                            <option value="opcion3">Pepsi 1.25L</option>
+                                            <option value="opcion4">7-up 1.25L</option>
+                                            <option value="opcion5">Soda de Dieta Black</option>
+                                        </select><br><br>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button id="no" type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cancelar</button>
+                                        <button id="si" type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Listo</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <form class="form" action="#">
+                        <div class="input-box">
+                            <label>Nombre Completo</label>
+                            <input required placeholder="Escribe tu nombre completo" type="text">
+                        </div>
+                        <div class="column">
+
+
+
+                            <div class="input-container">
+                                <i class="fas fa-phone"></i>
+                                <input type="telephone" required placeholder="Número de teléfono">
+                            </div>
+
+
+
+                            <div class="input-container2">
+                                <i class="fas fa-home"></i>
+                                <input required placeholder="Escribe tu dirección" type="text">
+                            </div>
+
+                        </div>
+                        <div class="input-box address">
+                            <div class="column">
+                                <div class="select-box">
+                                    <select>
+                                        <option hidden="">Localidad</option>
+                                        <option>Bosa</option>
+                                        <option>Chapinero</option>
+                                        <option>Engativá</option>
+                                        <option>Fontibón</option>
+                                        <option>La Candelaria</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div><br>
+                        <div class="paying-box">
+                            <label>Medio de pago</label>
+                            <div class="pay-option">
+                                <div class="pay"><br>
+                                    <input name="pay" id="check-male" type="radio">
+                                    <label for="check-male">Efectivo</label>
+                                </div>
+                                <div class="pay">
+                                    <input name="pay" id="check-female" type="radio">
+                                    <label for="check-female">Tarjerta</label>
+                                </div>
+                                <div class="pay">
+                                    <input name="pay" id="check-other" type="radio">
+                                    <label for="check-other">Nequi</label>
+                                </div>
+                                <div class="pay">
+                                    <input name="pay" id="check-other" type="radio">
+                                    <label for="check-other">Daviplata</label>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <input id="b2" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </section><br><br><BR>
+
+
+
+
+            <div class="titlee">
+                <i id="icono" class="fas fa-hamburger"></i>
+                <h2 id="menues">CONOCENOS</h2><br>
+                <i id="icono" class="fas fa-hamburger"></i>
+            </div><br>
+            <div class="vision">
+                <img class="mis" src="./img/logo.png">
+
+                <p id="conoce">En <em> Easy Food </em>nos importa la calidad más que la cantidad,
+                    nos empeñamos en brindar a nuestros clientes la mejor expecriencia posible
+                    ofreciendo un servicio impecable y un sabor único. Nuestra misión es poder servir
+                    de la mejor manera en todo momento y nuestra visión es crecer a nivel internacional
+                    como un restaurnte distinguido y dispuesto a dar lo mejor que tiene para ofrecer al mundo
+                    Contamos con locales en diferentes localidades de Bogotá y Funza ¿Qué esperas para venir con tu
+                    familia?
+                    <strong>¡Te esperamos!</strong>
+                </p>
+            </div>
+            </div><BR><BR>
+
+            <div class="titlee">
+                <i id="icono" class="fas fa-hamburger"></i>
+                <h2 id="menues">VISITANOS</h2><br>
+                <i id="icono" class="fas fa-hamburger"></i>
+            </div><br>
+
+
+            <div id="mapa" class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.61031062455!2d-74.13442532502089!3d4.663367495311504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c7c7dd550e1%3A0x7b3e42a2bcd51ed8!2sMcDonald&#39;s!5e0!3m2!1ses!2sco!4v1718811991629!5m2!1ses!2sco"
+                    width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <br><br><br><br>
+
+            <div class="fin">
+                <ul>
+                    <li><a class="red" href="#">Politica de privacidad</a></li>
+                    <li><a class="red" href="#">Trabaja con nosotros</a></li>
+                    <li>Cel: +57 319 2020445</a></li>
+                </ul>
+                <div class="imgfin">
+                    <img src="/img/logo3.png" height="200px" width="300px">
+                </div>
+
+                <div class="secondend">
+                    <h4 id="p3">SÍGUENOS EN NUESTRAS REDES</h4><br>
+
+
+
+                    <a href="https://www.facebook.com/damian.monroy.750" target="_blank" class="b3">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" target="_blank" class="b4">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/dm_md_969/" target="_blank" class="b5">
+                        <i class="fab fa-instagram"></i>
+
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UCM6XNdgVQZAjF0diMRByVsg" class="b6">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </footer>
+</body>
+
+
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
