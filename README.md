@@ -1,2 +1,2 @@
-# EF
+# EFeasyfood
 Easy Food Restaurant
